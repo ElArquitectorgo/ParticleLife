@@ -1,0 +1,17 @@
+C:\Users\victorgo\source\repos\ParticleLife\ParticleLife\bin\Release\net6.0-windows\ParticleLife.exe
+C:\Users\victorgo\source\repos\ParticleLife\ParticleLife\bin\Release\net6.0-windows\ParticleLife.deps.json
+C:\Users\victorgo\source\repos\ParticleLife\ParticleLife\bin\Release\net6.0-windows\ParticleLife.runtimeconfig.json
+C:\Users\victorgo\source\repos\ParticleLife\ParticleLife\bin\Release\net6.0-windows\ParticleLife.dll
+C:\Users\victorgo\source\repos\ParticleLife\ParticleLife\bin\Release\net6.0-windows\ParticleLife.pdb
+C:\Users\victorgo\source\repos\ParticleLife\ParticleLife\obj\Release\net6.0-windows\ParticleLife.csproj.AssemblyReference.cache
+C:\Users\victorgo\source\repos\ParticleLife\ParticleLife\obj\Release\net6.0-windows\ParticleLife.Simulation.resources
+C:\Users\victorgo\source\repos\ParticleLife\ParticleLife\obj\Release\net6.0-windows\ParticleLife.csproj.GenerateResource.cache
+C:\Users\victorgo\source\repos\ParticleLife\ParticleLife\obj\Release\net6.0-windows\ParticleLife.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\victorgo\source\repos\ParticleLife\ParticleLife\obj\Release\net6.0-windows\ParticleLife.AssemblyInfoInputs.cache
+C:\Users\victorgo\source\repos\ParticleLife\ParticleLife\obj\Release\net6.0-windows\ParticleLife.AssemblyInfo.cs
+C:\Users\victorgo\source\repos\ParticleLife\ParticleLife\obj\Release\net6.0-windows\ParticleLife.csproj.CoreCompileInputs.cache
+C:\Users\victorgo\source\repos\ParticleLife\ParticleLife\obj\Release\net6.0-windows\ParticleLife.dll
+C:\Users\victorgo\source\repos\ParticleLife\ParticleLife\obj\Release\net6.0-windows\refint\ParticleLife.dll
+C:\Users\victorgo\source\repos\ParticleLife\ParticleLife\obj\Release\net6.0-windows\ParticleLife.pdb
+C:\Users\victorgo\source\repos\ParticleLife\ParticleLife\obj\Release\net6.0-windows\ParticleLife.genruntimeconfig.cache
+C:\Users\victorgo\source\repos\ParticleLife\ParticleLife\obj\Release\net6.0-windows\ref\ParticleLife.dll
