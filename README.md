@@ -1,4 +1,4 @@
 # ParticleLife
 
-https://github.com/ElArquitectorgo/ParticleLife/assets/84041165/7943f25f-ce3a-4529-a7f0-389edd7d6f86
+https://github.com/ElArquitectorgo/ParticleLife/assets/84041165/140e8a6d-02b6-42d5-8430-fcb4260144bb
 
