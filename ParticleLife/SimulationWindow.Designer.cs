@@ -34,6 +34,7 @@
             this.trackBar1 = new System.Windows.Forms.TrackBar();
             this.trackBar2 = new System.Windows.Forms.TrackBar();
             this.trackBar3 = new System.Windows.Forms.TrackBar();
+            this.SpacePartition = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar3)).BeginInit();
@@ -52,7 +53,7 @@
             // 
             // Multi
             // 
-            this.Multi.Location = new System.Drawing.Point(681, 726);
+            this.Multi.Location = new System.Drawing.Point(681, 697);
             this.Multi.Name = "Multi";
             this.Multi.Size = new System.Drawing.Size(91, 23);
             this.Multi.TabIndex = 1;
@@ -62,7 +63,7 @@
             // 
             // Single
             // 
-            this.Single.Location = new System.Drawing.Point(681, 697);
+            this.Single.Location = new System.Drawing.Point(681, 726);
             this.Single.Name = "Single";
             this.Single.Size = new System.Drawing.Size(91, 23);
             this.Single.TabIndex = 3;
@@ -104,11 +105,22 @@
             this.trackBar3.Value = 10;
             this.trackBar3.Scroll += new System.EventHandler(this.trackBar3_Scroll);
             // 
+            // SpacePartition
+            // 
+            this.SpacePartition.Location = new System.Drawing.Point(681, 668);
+            this.SpacePartition.Name = "SpacePartition";
+            this.SpacePartition.Size = new System.Drawing.Size(91, 23);
+            this.SpacePartition.TabIndex = 8;
+            this.SpacePartition.Text = "SpacePartition";
+            this.SpacePartition.UseVisualStyleBackColor = true;
+            this.SpacePartition.Click += new System.EventHandler(this.SpacePartition_Click);
+            // 
             // Simulation
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(784, 761);
+            this.Controls.Add(this.SpacePartition);
             this.Controls.Add(this.trackBar3);
             this.Controls.Add(this.trackBar2);
             this.Controls.Add(this.trackBar1);
@@ -136,5 +148,6 @@
         private TrackBar trackBar1;
         private TrackBar trackBar2;
         private TrackBar trackBar3;
+        private Button SpacePartition;
     }
 }

@@ -132,6 +132,11 @@ namespace ParticleLife
             this.Universe = universe;
         }
 
+        private void SpacePartition_Click(object sender, EventArgs e)
+        {
+            setParallelOptions(new SpacePartition(Particles.Length, Rules, ClientSize.Width, ClientSize.Height));
+        }
+
         private void Auto_Click(object sender, EventArgs e)
         {
             setParallelOptions(new MultiThread(Rules, ClientSize.Width, ClientSize.Height));
@@ -140,7 +145,7 @@ namespace ParticleLife
         private void Single_Click(object sender, EventArgs e)
         {
             setParallelOptions(new SingleThread(Rules, ClientSize.Width, ClientSize.Height));
-        }
+        }    
 
         private void trackBar1_Scroll(object sender, EventArgs e)
         {
@@ -156,5 +161,6 @@ namespace ParticleLife
         {
             Universe.Dt = trackBar3.Value / 10000d;
         }
+        
     }
 }

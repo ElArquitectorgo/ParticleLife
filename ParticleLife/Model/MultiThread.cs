@@ -50,10 +50,10 @@ namespace ParticleLife.Model
                     double dx = particleB.X - particleA.X;
                     double dy = particleB.Y - particleA.Y;
 
-                    if (dx > Width - this.AttractionRange) dx -= Width;
-                    else if (dx < -Width + this.AttractionRange) dx += Width;
-                    if (dy > Height - this.AttractionRange) dy -= Height;
-                    else if (dy < -Height + this.AttractionRange) dy += Height;
+                    if (dx < -Width / 2) dx += Width;
+                    else if (dx >= Width / 2) dx -= Width;
+                    if (dy < -Height / 2) dy += Height;
+                    else if (dy >= Height / 2) dy -= Height;
 
                     // Euclidean distance
                     double distance = Math.Sqrt(dx * dx + dy * dy);
@@ -84,10 +84,9 @@ namespace ParticleLife.Model
                 particle.X += particle.VelX * Dt;
                 particle.Y += particle.VelY * Dt;
 
-                if (particle.X < 0) { particle.X = Width; }
-                if (particle.X > Width) { particle.X = 0; }
-                if (particle.Y < 0) { particle.Y = Height; }
-                if (particle.Y > Height) { particle.Y = 0; }
+                // wrap(x) = x - floor((x-a)/(b-a))*(b-a)
+                particle.X =particle.X - Math.Floor(particle.X / Width) * Width;
+                particle.Y = particle.Y - Math.Floor(particle.Y / Height) * Height;
             });
         }
     }
